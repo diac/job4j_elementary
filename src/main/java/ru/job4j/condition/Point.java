@@ -11,7 +11,10 @@ public class Point {
     }
 
     public static void main(String[] args) {
-        final int x1 = 0, y1 = 0, x2 = 2, y2 = 0;
+        final int x1 = 0;
+        final int y1 = 0;
+        final int x2 = 2;
+        final int y2 = 0;
 
         double result = Point.distance(x1, y1, x2, y2);
         System.out.println(
