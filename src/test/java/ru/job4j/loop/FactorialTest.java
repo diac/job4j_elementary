@@ -20,12 +20,4 @@ public class FactorialTest {
         int out = Factorial.calc(n);
         assertThat(out).isEqualTo(expected);
     }
-
-    @Test
-    public void whenCalculateFactorialForNegativeFiveThenError() {
-        int expected = -1;
-        int n = -5;
-        int out = Factorial.calc(n);
-        assertThat(out).isEqualTo(expected);
-    }
 }
