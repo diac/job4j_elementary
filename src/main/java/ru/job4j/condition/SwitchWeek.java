@@ -2,6 +2,11 @@ package ru.job4j.condition;
 
 public class SwitchWeek {
 
+    /**
+     *
+     * @param day Порядковый номер дня недели
+     * @return Текстовое название дня недели
+     */
     public static String nameOfDay(int day) {
         String name;
         switch (day) {
