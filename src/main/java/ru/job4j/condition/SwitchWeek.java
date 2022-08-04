@@ -4,35 +4,35 @@ public class SwitchWeek {
 
     /**
      *
-     * @param day Порядковый номер дня недели
-     * @return Текстовое название дня недели
+     * @param day РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРЅСЏ РЅРµРґРµР»Рё
+     * @return РўРµРєСЃС‚РѕРІРѕРµ РЅР°Р·РІР°РЅРёРµ РґРЅСЏ РЅРµРґРµР»Рё
      */
     public static String nameOfDay(int day) {
         String name;
         switch (day) {
             case 1:
-                name = "Понедельник";
+                name = "РџРѕРЅРµРґРµР»СЊРЅРёРє";
                 break;
             case 2:
-                name = "Вторник";
+                name = "Р’С‚РѕСЂРЅРёРє";
                 break;
             case 3:
-                name = "Среда";
+                name = "РЎСЂРµРґР°";
                 break;
             case 4:
-                name = "Четверг";
+                name = "Р§РµС‚РІРµСЂРі";
                 break;
             case 5:
-                name = "Пятница";
+                name = "РџСЏС‚РЅРёС†Р°";
                 break;
             case 6:
-                name = "Суббота";
+                name = "РЎСѓР±Р±РѕС‚Р°";
                 break;
             case 7:
-                name = "Воскресение";
+                name = "Р’РѕСЃРєСЂРµСЃРµРЅРёРµ";
                 break;
             default:
-                name = "Ошибка";
+                name = "РћС€РёР±РєР°";
                 break;
         }
         return name;
