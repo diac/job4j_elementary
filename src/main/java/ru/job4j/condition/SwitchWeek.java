@@ -32,4 +32,10 @@ public class SwitchWeek {
         }
         return name;
     }
+
+    public static void main(String[] args) {
+        System.out.println(nameOfDay(3));
+        System.out.println(nameOfDay(5));
+        System.out.println(nameOfDay(7));
+    }
 }
