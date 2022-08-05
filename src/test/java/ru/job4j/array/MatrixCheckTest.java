@@ -20,12 +20,12 @@ public class MatrixCheckTest {
     @Test
     public void whenDoesntHaveMonoHorizontal() {
         char[][] input = {
-                {' ', ' ', ' '},
-                {'X', ' ', 'X'},
-                {' ', ' ', ' '},
-                {'X', ' ', ' '},
-                {' ', ' ', ' '},
-                {' ', 'X', 'X'}
+                {' ', ' ', ' ', ' ', ' '},
+                {'X', ' ', 'X', ' ', ' '},
+                {' ', ' ', ' ', ' ', ' '},
+                {'X', ' ', ' ', ' ', ' '},
+                {' ', ' ', ' ', ' ', ' '},
+                {' ', 'X', 'X', ' ', ' '}
         };
         int row = 4;
         boolean result = MatrixCheck.monoHorizontal(input, row);
