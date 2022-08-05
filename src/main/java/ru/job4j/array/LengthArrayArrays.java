@@ -6,7 +6,7 @@ public class LengthArrayArrays {
         int[][] numbers = {{1}, {2, 3}, {4, 5, 6}, {7, 8, 9, 10}};
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(
-                    "Ðàçìåð âëîæåííîãî ìàññèâà ¹" + i + " ðàâåí: " + numbers[i].length
+                    "Ð Ð°Ð·Ð¼ÐµÑ€ Ð²Ð»Ð¾Ð¶ÐµÐ½Ð½Ð¾Ð³Ð¾ Ð¼Ð°ÑÑÐ¸Ð²Ð° â„–" + i + " Ñ€Ð°Ð²ÐµÐ½: " + numbers[i].length
             );
         }
     }
