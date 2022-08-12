@@ -6,16 +6,16 @@ public class Max {
         return (left > right) ? left : right;
     }
 
-    public static int max(int x1, int x2, int x3) {
-        return max(x1, max(x2, x3));
+    public static int max(int i, int j, int k) {
+        return max(i, max(j, k));
     }
 
-    public static int max(int x1, int x2, int x3, int x4) {
+    public static int max(int i, int j, int k, int l) {
         return max(
-                x1,
+                i,
                 max(
-                    x2,
-                    max(x3, x4)
+                    j,
+                    max(k, l)
                 )
         );
     }
